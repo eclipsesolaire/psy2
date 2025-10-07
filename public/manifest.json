@@ -1,6 +1,11 @@
 {
+  "homepage": "https://eclipsesolaire.github.io/psy2",
   "short_name": "React App",
   "name": "Create React App Sample",
+  "scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "icons": [
     {
       "src": "favicon.ico",
